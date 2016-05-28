@@ -8,4 +8,8 @@ class Notable < Formula
   def install
     bin.install "notable"
   end
+
+  test do
+    system "notable", "code", "https://google.com"
+  end
 end
