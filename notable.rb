@@ -1,8 +1,8 @@
 class Notable < Formula
   desc "command-line interface for design feedback by ZURB"
   homepage "http://zurb.com/notable"
-  url "https://github.com/zurb/notable-cli/archive/0.1.1.tar.gz"
-  sha256 "be402401e201145cf83b979ae09bc4e3311cf8c3fc75a2aca298ef0a11d4685c"
+  url "https://github.com/zurb/notable-cli/archive/0.1.2.tar.gz"
+  sha256 "6c4207677ef0191cba7e25e494b413e611e9066734bb118a244403f0d168bbca"
   depends_on "wget"
 
   def install
